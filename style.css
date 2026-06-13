@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --pink: pink;
+  --blue: rgb(88, 99, 255);
+  --dark-pink: rgb(119, 0, 99);
+
+  font-family: "Almendra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  background-color: rgb(19, 20, 24);
+}
+
+h1, h2 {
+  color: var(--pink);
+}
+
+a {
+  color: var(--pink);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--dark-pink);
+}
