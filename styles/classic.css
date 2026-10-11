@@ -1,0 +1,79 @@
+@import url(style.css);
+
+body {
+    background-color: #103b05;
+    color: black;
+}
+
+header {
+  background:black;
+  border-bottom: 5px inset #67DC44;
+}
+
+header h1 {
+  color: #67DC44;
+}
+
+main {
+  background: black;
+  color: white;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid #67DC44;
+}
+
+footer {
+  background: black;
+  border-top: 5px inset #67DC44;
+  color: white;
+}
+
+.status-box {
+  background: #49ae2a;
+  border: inset #67DC44;
+}
+
+nav {
+  background: black;
+  border-right: 5px solid #67DC44;
+}
+
+h1, h2 {
+  color: white;
+}
+
+a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav h3 {
+    color: white;
+}
+
+nav a:hover {
+  background: #67DC44;
+  color: black;
+}
+
+a {
+  color: white;
+}
+
+.wrapper {
+  background: #67DC44;
+  border: 5px inset #67DC44;
+  box-shadow: 8px 8px 0px #67DC44;
+}
+
+.marquee-text {
+  color: black;
+}

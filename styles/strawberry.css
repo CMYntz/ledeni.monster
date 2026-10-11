@@ -1,0 +1,75 @@
+@import url(style.css);
+
+body {
+    background-color: var(--dreams-dark);
+    color: black;
+}
+
+header {
+  background:var(--silver);
+  border-bottom: 5px inset var(--silver);
+}
+
+header h1 {
+  color: var(--strawberry);
+}
+
+main {
+  background: var(--dreams);
+  color: #000;
+}
+
+h2 {
+  color: black;
+  border-bottom: 2px solid var(--strawberry);
+}
+
+footer {
+  background: var(--silver);
+  border-top: 5px inset var(--silver);
+  color: #000;
+}
+
+.status-box {
+  background: var(--dreams);
+  border: inset var(--strawberry);
+}
+
+nav {
+  background: var(--silver);
+  border-right: 5px solid var(--ash);
+}
+
+h1, h2 {
+  color: black;
+}
+
+a {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: var(--dreams);
+  color: var(--strawberry);
+}
+
+a {
+  color: black;
+}
+
+.wrapper {
+  background: var(--strawberry);
+  border: 5px inset var(--silver);
+  box-shadow: 8px 8px 0px var(--strawberry);
+}
+
+.marquee-text {
+  color: whitesmoke;
+}
